@@ -1,0 +1,81 @@
+/* Basic resets and typography */
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Header jumbotron */
+.jumbotron {
+    background-color:  #f8f9fa;
+    color: #707071;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+/* Main container */
+.container {
+    padding: 2rem;
+}
+
+img.img-fluid {
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #dcb979;
+    border-color: #707071;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #707071;
+    border-color: #707071;
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #707071;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.card img {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #707071;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
